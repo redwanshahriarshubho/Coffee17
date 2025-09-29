@@ -7,105 +7,105 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-amber-50 text-gray-800">
+<body class="bg-gray-900 text-gray-200">
 
   <!-- Navbar -->
-  <nav class="bg-amber-800 text-white p-4 flex justify-between items-center">
+  <nav class="bg-gray-800 text-white p-4 flex justify-between items-center">
     <h1 class="text-2xl font-bold">Coffee17 ☕</h1>
-    <button id="cartBtn" class="bg-white text-amber-800 px-3 py-1 rounded-lg font-semibold hover:bg-amber-100">
+    <button id="cartBtn" class="bg-gray-700 text-white px-3 py-1 rounded-lg font-semibold hover:bg-gray-600">
       Cart (0)
     </button>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero text-center py-16 text-white">
+  <section class="hero text-center py-16 text-white bg-gray-700">
     <h2 class="text-4xl font-extrabold">Freshly Brewed Happiness</h2>
     <p class="mt-4 text-lg">Enjoy the best coffee in Bangladesh 🇧🇩, made with love every day.</p>
-    <a href="#menu" class="mt-6 inline-block bg-amber-600 px-5 py-2 rounded-lg hover:bg-amber-700">See Menu</a>
+    <a href="#menu" class="mt-6 inline-block bg-gray-600 px-5 py-2 rounded-lg hover:bg-gray-500">See Menu</a>
   </section>
 
   <!-- Menu Section -->
   <section id="menu" class="py-12 px-6">
-    <h2 class="text-3xl font-bold text-center mb-8">Our Menu</h2>
+    <h2 class="text-3xl font-bold text-center mb-8 text-gray-100">Our Menu</h2>
     <div class="grid md:grid-cols-3 gap-8">
       
       <!-- Coffee Item 1 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Latte" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Latte</h3>
-        <p class="text-gray-600">Smooth & creamy espresso delight.</p>
+        <p class="text-gray-400">Smooth & creamy espresso delight.</p>
         <p class="font-semibold mt-2">৳450</p>
-        <button onclick="addToCart('Latte')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Latte')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 2 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Cappuccino" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Cappuccino</h3>
-        <p class="text-gray-600">Rich espresso with milk foam.</p>
+        <p class="text-gray-400">Rich espresso with milk foam.</p>
         <p class="font-semibold mt-2">৳500</p>
-        <button onclick="addToCart('Cappuccino')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Cappuccino')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 3 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Americano" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Americano</h3>
-        <p class="text-gray-600">Bold black coffee for purists.</p>
+        <p class="text-gray-400">Bold black coffee for purists.</p>
         <p class="font-semibold mt-2">৳300</p>
-        <button onclick="addToCart('Americano')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Americano')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 4 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Espresso" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Espresso</h3>
-        <p class="text-gray-600">Intense and pure coffee shot.</p>
+        <p class="text-gray-400">Intense and pure coffee shot.</p>
         <p class="font-semibold mt-2">৳250</p>
-        <button onclick="addToCart('Espresso')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Espresso')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 5 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1524352312589-1f7cb0f8a9b0" alt="Mocha" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Mocha</h3>
-        <p class="text-gray-600">Espresso with chocolate and steamed milk.</p>
+        <p class="text-gray-400">Espresso with chocolate and steamed milk.</p>
         <p class="font-semibold mt-2">৳550</p>
-        <button onclick="addToCart('Mocha')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Mocha')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 6 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1494314675226-8c1121c5eb03" alt="Flat White" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Flat White</h3>
-        <p class="text-gray-600">Velvety espresso with microfoam milk.</p>
+        <p class="text-gray-400">Velvety espresso with microfoam milk.</p>
         <p class="font-semibold mt-2">৳480</p>
-        <button onclick="addToCart('Flat White')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Flat White')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 7 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1506619216599-9d16d0903dfd" alt="Cold Brew" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Cold Brew</h3>
-        <p class="text-gray-600">Smooth and refreshing chilled coffee.</p>
+        <p class="text-gray-400">Smooth and refreshing chilled coffee.</p>
         <p class="font-semibold mt-2">৳400</p>
-        <button onclick="addToCart('Cold Brew')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Cold Brew')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
       <!-- Coffee Item 8 -->
-      <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+      <div class="bg-gray-800 rounded-xl shadow-lg p-6 text-center">
         <img src="https://images.unsplash.com/photo-1517958881437-5d66d746b451" alt="Macchiato" class="rounded-lg mb-4 h-40 w-full object-cover">
         <h3 class="text-xl font-bold">Macchiato</h3>
-        <p class="text-gray-600">Espresso with a dash of frothy milk.</p>
+        <p class="text-gray-400">Espresso with a dash of frothy milk.</p>
         <p class="font-semibold mt-2">৳350</p>
-        <button onclick="addToCart('Macchiato')" class="mt-3 bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700">Add to Cart</button>
+        <button onclick="addToCart('Macchiato')" class="mt-3 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-500">Add to Cart</button>
       </div>
 
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-amber-800 text-white text-center py-4 mt-12">
+  <footer class="bg-gray-800 text-white text-center py-4 mt-12">
     <p>© 2025 Coffee17 Project by Redwan. All Rights Reserved.</p>
   </footer>
 
